@@ -1,0 +1,30 @@
+.form-control {
+  width: 800px;
+  height: 40px;
+}
+#contentForm {
+  border-radius: 7px;
+  overflow: hidden;
+  padding: 25px;
+  margin: 25px;
+  margin-top: 25px;
+  border: 1px solid black;
+  width: 720px;
+  height: 220px;
+}
+.content,
+form {
+  border-radius: 7px;
+  overflow: hidden;
+  padding: 25px;
+  margin: 25px;
+  border: 1px solid black;
+}
+a {
+  cursor: pointer;
+}
+
+.Perfil {
+  justify-content: start;
+  padding: 25px;
+}

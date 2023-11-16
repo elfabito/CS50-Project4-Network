@@ -1,0 +1,38 @@
+{% extends "network/layout.html" %}
+{% load static %}
+{% block body %}
+
+<div id="formDiv">
+    <form id="form">
+        <label>New Post:</label>
+        <br>
+        <div id="content_div_form">
+            <textarea name="contentForm" id="contentForm" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <input type="submit" onclick="submitForm()" value="Submit">
+        <br>
+        </p>
+    </form>
+</div>
+<div class="AllPosts" id="posts">
+
+</div>
+
+<div class="Perfil" id="profile">
+    <div id="data"></div>
+</div>
+
+<div class="Following" id="followingDiv">
+
+</div>
+
+
+{% endblock %}
+
+{% block script %}
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="{% static 'network/inbox.js' %}">
+
+</script>
+{% endblock %}
